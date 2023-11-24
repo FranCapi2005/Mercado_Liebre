@@ -89,7 +89,7 @@ ul a{
 .menssage-card{
     text-align: center;                                                     /*      ALINEACION HORIZONTAL EN BLOQUE TEXTO           */
     margin: 0.6rem;                                                         /*      MARGEN DE 0.6REM                                */
-    margin-top: 20px;
+    margin-top: 20px;                                                       /*      MARGEN SUPERIOR 0.6REM                          */
 }
 
 .header-log-bar{
@@ -123,18 +123,18 @@ ul a{
     font-size: 2.5vh;                                                       /*      TAMAÑO DE LETRA EN 2.5vh                        */
     color: #39b54a;                                                       /*      COLOR #39b54a                                   */
     padding-bottom: 0.6rem;                                                 /*      RELLENA INFERIOR DE 0.6REM                      */
-    -webkit-text-stroke: #39b54a 1px;                                     /*      CONTORNO #39b54a DE 1px A TEXTO               */
+    -webkit-text-stroke: #39b54a 1px;                                     /*      CONTORNO #39b54a DE 1px A TEXTO                 */
 }
 
 .description{
     font-size: 16px;                                                        /*      TAMAÑO DE LETRA EN 16px                         */
     text-align: start;                                                      /*      ALINEACION HORIZONTAL INICIAL BLOQUE TEXTO      */
-    opacity: 0%;
-    transition: opacity 1ms;
+    opacity: 0%;                                                            /*      OPACIDAD EN 0% (TRANSICION)                     */
+    transition: opacity 1ms;                                                /*      TRANSICION DE OPACIDAD.   DURACION 1MS          */
 }
 
 .description:hover{
-    opacity: 100%;
+    opacity: 100%;                                                          /*      PASA DE 0% A 100% DE OPACIDAD                   */
 }
 
 
@@ -166,12 +166,12 @@ ul a{
     position: relative;                                                     /*      UBICA EN POSICION RELATIVA                                              */
     left: 185px;                                                            /*      MUEVE A LA IZQ 185px                                                    */
     bottom: 15px;                                                           /*      MUEVE ARRIBA 15px                                                       */
-    transition-property: rotate;
-    transition-duration: 800ms;
+    transition-property: rotate;                                            /*      PROPIEDAD ROTATE DE TRANSICION                                          */
+    transition-duration: 800ms;                                             /*      DURACION DE TRANSICION DE 800MS                                         */
 }
 
 .icon-truck:hover{
-    rotate: -90deg
+    rotate: -90deg                                                          /*      TRANSICION DE -90º                              */
 }
 
 .based-on-pov, .section-offerts{
@@ -217,20 +217,20 @@ footer{
 
 .fa-user-shield, .fa-gift, .fa-credit-card{
     color: #1259c3;                                                       /*      COLOR #1259c3                                   */
-    transition-property: color;
-    transition-duration: 100ms;
+    transition-property: color;                                             /*      PROPIEDAD COLOR DE TRANSICION                   */
+    transition-duration: 100ms;                                             /*      DURACION DE TRANSICION DE 100MS                 */
 }
 
 .fa-user-shield:hover {
-    color: #004A4D;
+    color: #004A4D;                                                       /*      COLOR #004A4D                                   */
 }
 
 .fa-credit-card:hover {
-    color: #004A4D;
+    color: #004A4D;                                                       /*      COLOR #004A4D                                   */
 }
 
 .fa-gift:hover {
-    color: #004A4D;
+    color: #004A4D;                                                       /*      COLOR #004A4D                                   */
 }
 
 
